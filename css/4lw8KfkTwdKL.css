@@ -1,0 +1,357 @@
+/*  -----------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: '';
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.td-small-video .td-video-play-ico > img {
+  width: 28px;
+}
+/*  ----------------------------------------------------------------------------
+    General
+*/
+.td-category-gradient-style1:after {
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-box-shadow: inset 0 0 188px 0 #000000;
+  -moz-box-shadow: inset 0 0 188px 0 #000000;
+  box-shadow: inset 0 0 188px 0 #000000;
+  z-index: -1;
+}
+/*  ----------------------------------------------------------------------------
+    Category templates rd 1, 5
+*/
+.td_category_template_rd_1 .td-category-description,
+.td_category_template_rd_5 .td-category-description {
+  margin: 22px 0 12px 0;
+}
+/*  ----------------------------------------------------------------------------
+    Category templates rd 2, 6
+*/
+.td_category_template_rd_2 .td-category-header .entry-title:after,
+.td_category_template_rd_6 .td-category-header .entry-title:after,
+.td_category_template_rd_8 .td-category-header .entry-title:after {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+/*  ----------------------------------------------------------------------------
+    Category templates rd 2, 8
+*/
+.td_category_template_rd_2 .td-category-header .entry-title,
+.td_category_template_rd_8 .td-category-header .entry-title {
+  text-align: center;
+}
+.td_category_template_rd_2 .td-category-crumb-filter,
+.td_category_template_rd_8 .td-category-crumb-filter {
+  margin-bottom: 18px;
+}
+.td_category_template_rd_2 .td-category-description,
+.td_category_template_rd_8 .td-category-description {
+  width: 80%;
+  margin: -8px auto 12px;
+  text-align: center;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td_category_template_rd_2 .td-category-description,
+  .td_category_template_rd_8 .td-category-description {
+    width: 100%;
+  }
+}
+.td_category_template_rd_2 .td-category-siblings .td-subcat-more,
+.td_category_template_rd_8 .td-category-siblings .td-subcat-more {
+  display: none;
+}
+/*  ----------------------------------------------------------------------------
+    Category template rd 2
+*/
+.td_category_template_rd_2 .td-category {
+  text-align: center;
+}
+/*  ----------------------------------------------------------------------------
+    Category template rd 3
+*/
+.td_category_template_rd_3 .td-category-crumb-filter {
+  margin-bottom: 6px;
+}
+.td_category_template_rd_3 .td-category-siblings .td-subcat-more {
+  display: none;
+}
+.td_category_template_rd_3 .td-category-description {
+  margin: -8px 0 12px;
+}
+/*  ----------------------------------------------------------------------------
+    Category template rd 4
+*/
+.td_category_template_rd_4 .td-category-header {
+  background-color: #fdfdfd;
+  border-bottom: 1px solid #f5f5f5;
+}
+.td_category_template_rd_4 .td-category-header .entry-title {
+  display: block;
+  padding-bottom: 0;
+}
+.td_category_template_rd_4 .td-category-header .entry-title:after {
+  display: none;
+}
+.td_category_template_rd_4 .td-category-crumb-filter {
+  padding-top: 15px;
+}
+.td_category_template_rd_4 .td-category-description {
+  margin: -2px 0 2px 0;
+}
+.td_category_template_rd_4 .td-main-content-wrap {
+  padding-top: 30px;
+}
+/*  ----------------------------------------------------------------------------
+    Category template rd 5
+*/
+.td_category_template_rd_5 .td-category-header .td-scrumb-holder {
+  margin-bottom: 26px;
+  background-color: #fdfdfd;
+  border-bottom: 1px solid #f5f5f5;
+}
+.td_category_template_rd_5 .td-category-crumb-filter {
+  margin-bottom: 14px;
+  padding-top: 15px;
+}
+.td_category_template_rd_5 .td-category-description {
+  margin-bottom: 2px;
+}
+/*  ----------------------------------------------------------------------------
+    Category templates rd 6, 7
+*/
+.td_category_template_rd_6 .td-category-header,
+.td_category_template_rd_7 .td-category-header {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.td_category_template_rd_6 .td-category-header .td-container,
+.td_category_template_rd_7 .td-category-header .td-container {
+  display: table;
+  min-height: 323px;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td_category_template_rd_6 .td-category-header .td-container,
+  .td_category_template_rd_7 .td-category-header .td-container {
+    min-height: 280px;
+  }
+}
+.td_category_template_rd_6 .td-category-header .td-page-title,
+.td_category_template_rd_7 .td-category-header .td-page-title,
+.td_category_template_rd_6 .td-category-header p,
+.td_category_template_rd_7 .td-category-header p {
+  color: #fff;
+}
+.td_category_template_rd_6 .td-category-header .td-subcat-more,
+.td_category_template_rd_7 .td-category-header .td-subcat-more {
+  color: #fff;
+}
+.td_category_template_rd_6 .td-category-crumb-filter,
+.td_category_template_rd_7 .td-category-crumb-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 16px;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td_category_template_rd_6 .td-category-crumb-filter,
+  .td_category_template_rd_7 .td-category-crumb-filter {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.td_category_template_rd_6 .entry-crumbs,
+.td_category_template_rd_7 .entry-crumbs,
+.td_category_template_rd_6 .entry-crumbs a,
+.td_category_template_rd_7 .entry-crumbs a,
+.td_category_template_rd_6 .entry-crumbs a:hover,
+.td_category_template_rd_7 .entry-crumbs a:hover {
+  color: #fff;
+}
+.td_category_template_rd_6 .td-category-title-holder,
+.td_category_template_rd_7 .td-category-title-holder {
+  display: table-cell;
+  padding: 60px 0;
+  z-index: 2;
+  vertical-align: middle;
+  /* responsive portrait tablet */
+  /* responsive portrait phone */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td_category_template_rd_6 .td-category-title-holder,
+  .td_category_template_rd_7 .td-category-title-holder {
+    padding-top: 61px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .td_category_template_rd_6 .td-category-title-holder,
+  .td_category_template_rd_7 .td-category-title-holder {
+    padding: 51px 0 20px;
+  }
+}
+.td_category_template_rd_6 .td-category-title-holder .entry-title,
+.td_category_template_rd_7 .td-category-title-holder .entry-title {
+  margin-bottom: 0;
+  padding-bottom: 9px;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 44px;
+}
+.td_category_template_rd_6 .td-category-description p,
+.td_category_template_rd_7 .td-category-description p {
+  margin-bottom: 5px;
+}
+.td_category_template_rd_6 .td-category-grid .td_block_wrap,
+.td_category_template_rd_7 .td-category-grid .td_block_wrap {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.td_category_template_rd_6 .td-main-content-wrap,
+.td_category_template_rd_7 .td-main-content-wrap {
+  padding-top: 40px;
+}
+/*  ----------------------------------------------------------------------------
+    Category template rd 6
+*/
+.td_category_template_rd_6 .td-category-title-holder {
+  text-align: center;
+}
+.td_category_template_rd_6 .td-category-title-holder .entry-title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.td_category_template_rd_6 .td-category-title-holder .entry-title:after {
+  display: none;
+}
+.td_category_template_rd_6 .td-category-description {
+  position: relative;
+  width: 80%;
+  margin: 8px auto 0;
+  padding-top: 23px;
+  text-align: center;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td_category_template_rd_6 .td-category-description {
+    width: 100%;
+  }
+}
+.td_category_template_rd_6 .td-category-description:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 80px;
+  height: 1px;
+  background-color: #42bdcd;
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity='20')";
+  filter: alpha(opacity=20);
+}
+/*  ----------------------------------------------------------------------------
+    Category template rd 7
+*/
+.td_category_template_rd_7 .td-category-header .td-category-siblings {
+  margin-top: 20px;
+}
+.td_category_template_rd_7 .td-category-header .td-category-siblings .td-subcat-more {
+  display: none;
+}
+.td_category_template_rd_7 .td-category-header .entry-category a {
+  background-color: transparent;
+  font-weight: 400;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.td_category_template_rd_7 .td-category-header .entry-category a:hover {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.td_category_template_rd_7 .td-category-description {
+  margin-top: -9px;
+}
+/*  ----------------------------------------------------------------------------
+    Category template rd 8
+*/
+.td_category_template_rd_8 .td-category-header {
+  padding-bottom: 10px;
+}
+.td_category_template_rd_8 .td-category-header .entry-title {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 9px;
+  font-size: 31px;
+  line-height: 44px;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td_category_template_rd_8 .td-category-header .entry-title {
+    padding-bottom: 17px;
+    font-size: 25px;
+    line-height: 24px;
+  }
+}
+.td_category_template_rd_8 .td-category-header .td-category {
+  text-align: center;
+}
+.td_category_template_rd_8 .td-category-description {
+  margin-bottom: 2px;
+}
+.td_category_template_rd_8 .td-category-bg-title {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: -17px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  overflow: hidden;
+  opacity: 0.05;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity='5')";
+  filter: alpha(opacity=5);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td_category_template_rd_8 .td-category-bg-title {
+    height: 55px;
+    top: -12px;
+    font-size: 55px;
+  }
+}
